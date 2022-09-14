@@ -1,0 +1,205 @@
+/* RESET */
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+
+.central{
+    background-color: white;
+    width:100%;
+    height:1120px;
+}
+
+.uno{
+    display: flex;
+    background-color: rgb(33, 33, 31);
+    width:100%;
+    height:50px;
+
+}
+
+.unoUno{
+    display: flex;
+    flex:7;
+    background-color: rgb(33, 33, 31);
+    margin: 4px 100px;
+
+}
+
+.unoDos{
+    display: flex;
+    flex:1;
+    margin: 4px 120px 4px;
+    background-color: blue;
+}
+
+.dos{
+    display: flex;
+    background-color:white;
+    height:1000px;
+    margin: 10px 100px 10px 100px;
+}
+
+.dosUno{
+    display: flex;
+    background-color: white;
+    flex:2;
+    flex-direction: column;
+    margin: 15px
+
+}
+
+.dosDos{
+    display: flex;
+    background-color: white;
+    flex:1.2;
+    flex-direction: column;
+    margin: 15px
+
+}
+
+.a{
+    flex:1.8;
+    border: 4px solid;
+    margin: 15px;
+    background-color: white;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    flex:1.4;
+    border: 4px solid;
+    margin: 15px;
+    background-color: rgb(130, 206, 17);
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 4px solid;
+    margin: 15px;
+    background-color: blue;
+
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    border: 4px solid;
+    margin: 15px;
+    background-color: rgba(206, 17, 206, 0.949);
+    
+}
+.e{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 4px solid;
+    margin: 15px;
+    background-color: rgb(17, 134, 206);
+    
+}
+
+.c1{
+    flex:1;
+    background-color: azure;
+}
+.c2{
+    flex:3;
+    background-color: rgb(6, 70, 70);
+}
+
+.d1{
+    flex:1;
+    background-color: azure;
+}
+.d2{
+    flex:6;
+    background-color: rgb(6, 70, 70);
+}
+
+.e1{
+    flex:1;
+    background-color: azure;
+}
+.e2{
+    flex:3;
+    background-color: rgb(6, 70, 70);
+}
+
+.b1{
+    flex:1;
+    background-color: azure;
+}
+.b2{
+    flex:6;
+    background-color: rgb(6, 70, 70);
+}
+
+.card-header{
+    height: 130px;
+    background-color: rgb(47, 186, 186);
+    margin-bottom: 70px;
+}
+
+.avatar{
+    height: 140px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.card-body{
+    padding: 0 20px 20px 20px;
+    background-color: white;
+}
+
+.mapmarker{
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+    
+}
+.selectores{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.h1{
+    font-size: 50px;
+    color: white;
+
+}
+
+.btn{
+    flex: 1;
+    border: 2px solid white;
+    background-color: rgb(31, 176, 176);
+    color: azure;
+    width: 20px;
+    font-size: 15px
+
+}
+
+.link{
+    color: blue;
+
+}

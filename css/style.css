@@ -1,0 +1,57 @@
+
+.tittle{
+    text-align:center ;
+    font-size: 60px;
+    color:gray;
+
+
+}
+.principal{
+    background-color: rgba(128, 128, 128, 0.374);
+    width: 600px;
+    height: 800px;
+    margin:0px 300px 0px 300px;
+}
+
+.image{
+    width: 160px;
+    height: 160px;
+
+    
+    
+}
+
+.oneBlock{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px 16px 32px;
+    border-radius: 20px;
+    
+}
+
+.twoBlock{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 16px 32px;
+    border-radius: 20px;
+}
+
+.threeBlock{
+    background-color: rgb(31, 185, 227);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px 16px 32px;
+    border-radius: 20px;
+}
+
+.url{
+    text-align:center ;
+}

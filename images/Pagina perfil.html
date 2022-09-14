@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5502/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina perfil</title>
+    <link rel="stylesheet" href="./Pagina perfil_files/style.css">
+</head>
+<body>
+    <div class="central">
+        <div class="uno">
+            <div class="unoUno">
+                <ul class="selectores">
+                    <li><h1 class="h1">Profile</h1></li>
+                    <li><a href="http://127.0.0.1:5502/index.html#">Home</a></li>
+                    <li><a href="http://127.0.0.1:5502/index.html#">My Profile</a></li>
+                    <li><a href="http://127.0.0.1:5502/index.html#">Find Conections</a></li>
+                </ul>
+            </div>
+            <div class="unoDos">
+                <button class="btn">Sign Out</button>
+            </div>
+        </div>
+        <div class="dos">
+            <div class="dosUno">
+                <div class="a">
+                    <div class="card-header">
+                        <img src="./Pagina perfil_files/user-circle.png" alt="Circulo" class="avatar">
+                    </div>
+                    <div class="card-body">
+                        <h1>Santiago Gutiérrez</h1>
+                        <h3>
+                            <img src="./Pagina perfil_files/map-marker.png" alt="pin" class="mapmarker">
+                            Colombia
+                        </h3>
+                        <p>
+                            Desarrollador | Ingeniero | Soñador
+                            Web developer and mechanic engienerier
+                        </p>
+                        <p>
+                            <a class="link" href="http://127.0.0.1:5502/index.html#">
+                                <img src="./Pagina perfil_files/gear.png" alt="gear" class="mapmarker">
+                                Editar perfil
+                            </a>
+                        </p>
+            
+                    </div>
+                </div>
+                <div class="b">
+                    <div class="b1">
+
+
+                    </div>
+                    <div class="b2">
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="dosDos">
+                <div class="c">
+                    <div class="c1">
+
+                    </div>
+                    <div class="c2">
+
+
+                    </div>
+                </div>
+                <div class="d">
+                    <div class="d1">
+
+                    </div>
+                    <div class="d2">
+
+                        
+                    </div>
+
+                </div>
+                <div class="e">
+                    <div class="e1">
+
+                    </div>
+                    <div class="e2">
+
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
